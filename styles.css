@@ -133,10 +133,7 @@ width: 284PX;
     height: 312px;
     display: block;
     margin: 5% 30%;
-   border: 7px;
-   border-radius: 22px;
- border-style:groove;
-   text-shadow: 2px 2px black;
+ 
 }
 .rage{
  width: 402px;
@@ -324,4 +321,39 @@ width: 284PX;
    border-radius: 22px;
  border-style:groove;
    text-shadow: 2px 2px black;
+}
+@media (max-width: 768px) {
+    /* Faz as imagens ocuparem a largura máxima da tela */
+    .baner1, .baner2, .pict1, .not, .rage, .band, .vid, .img1, .img2, .for, .pict2 {
+        width: 95% !important;
+        height: auto !important; /* Mantém a proporção */
+        margin: 10px auto !important; /* Centraliza automaticamente */
+        display: block;
+    }
+
+    /* Ajusta os textos para caberem na tela */
+    .text1, .text2, .text3, .text4, .text6, .pag {
+        width: 95% !important;
+        margin: 10px auto !important;
+        font-size: 1rem !important; /* Ajusta o tamanho da fonte */
+    }
+
+    /* Faz o menu empilhar os botões verticalmente */
+    .botoes {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+    
+    /* Ajusta a tabela para não estourar a tela */
+    .table {
+        width: 100% !important;
+        font-size: 0.8rem !important;
+        margin: 0 !important;
+    }
+    
+    .house {
+        width: 100% !important;
+    }
 }
