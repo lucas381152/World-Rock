@@ -1,0 +1,327 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+/* estilo do banner de fundo da home*/
+.house{
+background-image: url(imagens/banerp.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+   overflow-x: hidden;
+    background-attachment: fixed;
+ font-family: Cambria, Cochin, Georgia, Times;
+  
+ 
+}
+/* estilo do banner de fundo das paginas*/
+.house2{
+background-image: url(imagens/banerb.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+   font-family: Cambria, Cochin, Georgia, Times;
+    background-attachment: fixed;
+  
+}
+/* configuração do banner*/
+.uni{
+   width: 123px;
+    height: 100px;
+   
+    margin: 5% 56%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+ 
+  
+}
+/* configuração do banner2*/
+.baner1{
+
+    width: 1350px;
+    height: 282px;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos botoes de navegação*/
+.botoes{
+ 
+width: 284PX;
+    height: 154px;
+    cursor: pointer;
+  display: flex;
+    gap: -29px;
+    align-items: center;
+  }
+/* estilo de artefatos da classe pag*/
+.pag{
+    background-color: rgba(244, 12, 17, 0.7);
+    font-family:fantasy;
+   text-align: center;
+    font-size:xx-large;
+    color: white;
+ height:48px;
+ width: 1379px;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo do banner2*/
+.baner2{
+    width: 793px;
+    height: 396px;
+    display: block;
+    margin: 5% 26%;
+  border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+ 
+}
+/* estilo dos textos da classe text1*/
+.text1{
+ background-color: #f40c11;
+ opacity: 0.9;
+ color: whitesmoke;
+ text-align: center;
+ width: 923px;
+ margin: 8% 18%;
+ padding: 9px;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+ 
+ 
+}
+/* estilo das imagens com a classe pict1*/
+.pict1{
+  width: 611px;
+    height: 457px;
+    display: block;
+    margin: 5% 34%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos textos da classe text2*/
+.text2{
+ background-color: #f40c11;
+ opacity: 0.9;
+ color: whitesmoke;
+ text-align: center;
+ width: 493px;
+ margin: 4% 37%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+
+}
+/* estilo do banner noticias*/
+.not{
+   width: 703px;
+    height: 312px;
+    display: block;
+    margin: 5% 30%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+.rage{
+ width: 402px;
+    height: 333px;
+  align-self: flex-start;
+  border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos textos da classe text3*/
+.text3{
+  background-color: #f40c11;
+ opacity: 0.9;
+ color: whitesmoke;
+ text-align: center;
+ width: 493px;
+ margin: -23% 40%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+ 
+}
+/* estilo da parte banda do mes*/
+.band{
+   width: 993px;
+    height: 302px;
+    display: block;
+    margin: 1% 15%;
+  
+}
+/* estilo dos videos em geral*/
+.vid{
+    width: 793px;
+    height: 396px;
+    display: block;
+    margin: 5% 22%;
+  border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos links em geral*/
+.lik{
+   width: 287px;
+    height: 179px;
+ 
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos textos da classe text4*/
+.text4{
+  background-color: #f40c11;
+ opacity: 0.9;
+ color: whitesmoke;
+ text-align: center;
+ width: 220px;
+ margin: 4% 40%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+
+  
+}
+.hou1{
+  width: 284PX;
+    height: 154px;
+    cursor: pointer;
+  display: flex;
+    gap: -27px;
+    align-items: center;
+  margin: -4% 38%;
+   
+}
+/* estilo das imagens da classe img1*/
+
+.img1{
+  width: 816px;
+    height: 497px;
+   
+    margin: 5% 19%;
+  border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo das imagens da classe img2*/
+.img2{
+  width: 422px;
+    height: 242px;
+   
+    margin: 5% 33%;
+ border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo e configurações da tabela*/
+.table{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  margin: 0% 13%;
+  height: 82%;
+  width: 98%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+.for{
+   width: 919px;
+    height: 328px;
+    display: block;
+    margin: -6% 19%;
+ 
+}
+/* estilo e cofigurações do formulario*/
+.form{
+
+   font-size: large;
+  background-color: red;
+  opacity: 0.9;
+  color: whitesmoke;
+  text-align: center;
+  margin: 8% 34%;
+  height: 82%;
+  width: 31%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo dos textos da classe text6*/
+.text6{
+   background-color: #f40c11;
+ opacity: 0.9;
+ color: whitesmoke;
+ text-align: center;
+ width: 493px;
+ margin: 4% 31%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
+/* estilo das lista ordenada*/
+.list1{
+  list-style-type: decimal;
+  padding-left: 31px;
+  margin: 8% 21%;
+ background-color: chocolate;
+  opacity: 0.9;
+  font-family:Impact, Haettenschweiler;
+  color:black;
+  font-size: xx-large;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px #efefef;
+   
+}
+/* estilo da lista nao ordenada*/
+.list2{
+  list-style-type:disc;
+  padding-left: 20px;
+  margin: 2% 30%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  
+}
+/* estilo das imagens da classe pict2*/
+.pict2{
+  width: 507px;
+    height: 340px;
+    display: block;
+    margin: 5% 32%;
+   border: 7px;
+   border-radius: 22px;
+ border-style:groove;
+   text-shadow: 2px 2px black;
+}
